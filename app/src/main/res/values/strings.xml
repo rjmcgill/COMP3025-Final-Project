@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">COMP3025-Final-Project</string>
+    <string name="welcome">Welcome to Recipe Manager 2020</string>
+    <string name="proceed">Proceed</string>
 </resources>
