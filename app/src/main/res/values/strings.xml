@@ -9,4 +9,6 @@
     -->
     <string name="hello_world">Hello Square World!</string>
     <string name="select_a_recipe">Select a Recipe</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+    <string name="recipe">Recipe</string>
 </resources>
