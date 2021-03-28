@@ -2,4 +2,11 @@
     <string name="app_name">COMP3025-Final-Project</string>
     <string name="welcome">Welcome to Recipe Manager 2020</string>
     <string name="proceed">Proceed</string>
+    <string name="title_activity_recipe_list">RecipeListActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="select_a_recipe">Select a Recipe</string>
 </resources>
