@@ -1,5 +1,6 @@
 package com.example.comp3025_final_project
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -19,5 +20,16 @@ class RecipeListActivity : AppCompatActivity() {
             var listAdapter = ListViewAdapter(this, recipeList)
             binding.verticalRecyclerView.adapter = listAdapter
         })
+
+        binding.buttonAdd.setOnClickListener {
+            val intent = Intent(this, AddRecipeActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    override fun recipeSelected(recipe: Recipe) {
+        val intent = Intent(this, RecipeActivity::class.java)
+        intent.putExtra("recipeName", recipe.recipeName)
+        startActivity(intent)
     }
 }
