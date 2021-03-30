@@ -20,22 +20,28 @@
         -->
 
         <activity
-            android:name=".AddRecipeActivity"
-            android:label="@string/title_activity_add_recipe">
-        </activity>
-        <activity
-            android:name=".RecipeActivity"
-            android:label="@string/title_activity_recipe"></activity>
-        <activity
-            android:name=".RecipeListActivity"
-            android:label="@string/title_activity_recipe_list">
-        </activity>
-        <activity android:name=".MainActivity">
+            android:name=".SigninActivity"
+            android:label="@string/title_activity_signin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <activity
+            android:name=".AddRecipeActivity"
+            android:label="@string/title_activity_add_recipe"></activity>
+        <activity
+            android:name=".RecipeActivity"
+            android:label="@string/title_activity_recipe" />
+        <activity
+            android:name=".RecipeListActivity"
+            android:label="@string/title_activity_recipe_list"></activity>
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 

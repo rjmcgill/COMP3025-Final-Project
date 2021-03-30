@@ -16,4 +16,5 @@
     <string name="title">Title</string>
     <string name="description">Description</string>
     <string name="testing_text">Testing Text</string>
+    <string name="title_activity_signin">SigninActivity</string>
 </resources>
