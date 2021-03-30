@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Color pallet generated using https://coolors.co -->
+    <color name="blue_NCS">#118AB2</color>
+    <color name="midnight_green_eagle_green">#073B4C</color>
+    <color name="caribbean_green">#06D6A0</color>
+    <color name="orange_yellow_crayola">#FFD166</color>
+    <color name="paradise_pink">#EF476F</color>
 </resources>

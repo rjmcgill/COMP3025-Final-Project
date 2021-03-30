@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.comp3025_final_project.databinding.ActivityRecipeListBinding
 import androidx.lifecycle.Observer
 
-class RecipeListActivity : AppCompatActivity() {
+class RecipeListActivity : AppCompatActivity(), ListViewAdapter.RecipeItemListener {
     private lateinit var binding: ActivityRecipeListBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,11 +17,11 @@ class RecipeListActivity : AppCompatActivity() {
 
         val model : RecipeListViewModel by viewModels()
         model.getRecipes().observe(this, Observer<List<Recipe>> { recipeList ->
-            var listAdapter = ListViewAdapter(this, recipeList)
+            var listAdapter = ListViewAdapter(this, recipeList, this)
             binding.verticalRecyclerView.adapter = listAdapter
         })
 
-        binding.buttonAdd.setOnClickListener {
+        binding.addRecipeFAB.setOnClickListener {
             val intent = Intent(this, AddRecipeActivity::class.java)
             startActivity(intent)
         }
@@ -30,6 +30,7 @@ class RecipeListActivity : AppCompatActivity() {
     override fun recipeSelected(recipe: Recipe) {
         val intent = Intent(this, RecipeActivity::class.java)
         intent.putExtra("recipeName", recipe.recipeName)
+        intent.putExtra("description", recipe.description)
         startActivity(intent)
     }
 }

@@ -8,7 +8,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class ListViewAdapter(  val context: Context,
-                        val recipes : List<Recipe>) : RecyclerView.Adapter<ListViewAdapter.RecipeViewHolder>() {
+                        val recipes : List<Recipe>,
+                        val itemListener : RecipeItemListener) : RecyclerView.Adapter<ListViewAdapter.RecipeViewHolder>() {
     inner class RecipeViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {
         val nameTextView = itemView.findViewById<TextView>(R.id.nameTextView)
     }
@@ -28,5 +29,13 @@ class ListViewAdapter(  val context: Context,
         with(holder) {
             nameTextView.text = recipe.recipeName
         }
+
+        holder.itemView.setOnClickListener {
+            itemListener.recipeSelected(recipe)
+        }
+    }
+
+    interface RecipeItemListener {
+        fun recipeSelected(recipe: Recipe)
     }
 }

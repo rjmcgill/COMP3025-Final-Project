@@ -15,4 +15,5 @@
     <string name="title_activity_add_recipe">AddRecipeActivity</string>
     <string name="title">Title</string>
     <string name="description">Description</string>
+    <string name="testing_text">Testing Text</string>
 </resources>
