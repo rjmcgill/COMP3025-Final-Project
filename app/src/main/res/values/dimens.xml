@@ -13,4 +13,5 @@
     -->
     <dimen name="inner_frame_layout_padding">5dp</dimen>
     <dimen name="header">50sp</dimen>
+    <dimen name="fab_margin">10dp</dimen>
 </resources>

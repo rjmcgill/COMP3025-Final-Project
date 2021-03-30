@@ -1,7 +1,8 @@
 package com.example.comp3025_final_project
 
 data class Recipe (
-    var recipeId: String?=null,
+    var id: String?=null,
+    var recipeName: String?=null,
     var description: String?=null,
-    var imageString: String?=null
+    var image: String?=null
 )

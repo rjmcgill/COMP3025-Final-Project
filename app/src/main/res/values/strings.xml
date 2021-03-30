@@ -11,4 +11,8 @@
     <string name="select_a_recipe">Select a Recipe</string>
     <string name="title_activity_recipe">RecipeActivity</string>
     <string name="recipe">Recipe</string>
+    <string name="add_a_recipe">Add a Recipe</string>
+    <string name="title_activity_add_recipe">AddRecipeActivity</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
 </resources>
