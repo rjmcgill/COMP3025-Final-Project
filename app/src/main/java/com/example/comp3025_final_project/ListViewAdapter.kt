@@ -1,6 +1,7 @@
 package com.example.comp3025_final_project
 
 import android.content.Context
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -28,6 +29,7 @@ class ListViewAdapter(  val context: Context,
         val recipe = recipes[position]
         with(holder) {
             nameTextView.text = recipe.recipeName
+            nameTextView.setTextColor(Color.parseColor("#FF000000"))
         }
 
         holder.itemView.setOnClickListener {

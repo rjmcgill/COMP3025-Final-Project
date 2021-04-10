@@ -6,5 +6,6 @@
     android:layout_height="match_parent"
     android:padding="@dimen/box_inset_layout_padding"
     tools:context=".SigninActivity"
-    tools:deviceIds="wear">
+    tools:deviceIds="wear"
+    android:background="@color/blue_NCS">
 </androidx.constraintlayout.widget.ConstraintLayout>

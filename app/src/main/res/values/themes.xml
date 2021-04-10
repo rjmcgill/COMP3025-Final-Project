@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.COMP3025FinalProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blue_NCS</item>
+        <item name="colorPrimary">@color/midnight_green_eagle_green</item>
         <item name="colorPrimaryVariant">@color/midnight_green_eagle_green</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/blue_NCS</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/caribbean_green</item>
         <item name="colorSecondaryVariant">@color/paradise_pink</item>
@@ -12,5 +12,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:textColor" tools:targetApi="l">@color/white</item>
     </style>
 </resources>
