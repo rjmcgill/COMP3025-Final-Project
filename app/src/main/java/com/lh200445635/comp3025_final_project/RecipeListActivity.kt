@@ -1,10 +1,10 @@
-package com.example.comp3025_final_project
+package com.lh200445635.comp3025_final_project
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.example.comp3025_final_project.databinding.ActivityRecipeListBinding
+import com.lh200445635.comp3025_final_project.databinding.ActivityRecipeListBinding
 import androidx.lifecycle.Observer
 
 class RecipeListActivity : AppCompatActivity(), ListViewAdapter.RecipeItemListener {

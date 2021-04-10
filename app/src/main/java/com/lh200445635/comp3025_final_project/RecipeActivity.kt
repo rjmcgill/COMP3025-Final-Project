@@ -1,10 +1,10 @@
-package com.example.comp3025_final_project
+package com.lh200445635.comp3025_final_project
 
 import android.content.Intent
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import androidx.appcompat.app.AppCompatActivity
-import com.example.comp3025_final_project.databinding.ActivityRecipeBinding
+import com.lh200445635.comp3025_final_project.databinding.ActivityRecipeBinding
 
 
 class RecipeActivity : AppCompatActivity() {

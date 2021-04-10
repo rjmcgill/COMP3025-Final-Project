@@ -1,11 +1,10 @@
-package com.example.comp3025_final_project
+package com.lh200445635.comp3025_final_project
 
-import com.firebase.ui.auth.AuthUI
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.comp3025_final_project.databinding.ActivityAddRecipeBinding
+import com.lh200445635.comp3025_final_project.databinding.ActivityAddRecipeBinding
 import com.google.firebase.firestore.FirebaseFirestore
 
 class AddRecipeActivity : AppCompatActivity() {

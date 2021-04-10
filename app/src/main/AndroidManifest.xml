@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.comp3025_final_project">
+    package="com.lh200445635.comp3025_final_project">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -20,7 +20,7 @@
         -->
 
         <activity
-            android:name=".SigninActivity"
+            android:name="com.lh200445635.comp3025_final_project.SigninActivity"
             android:label="@string/title_activity_signin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,15 +33,15 @@
                app to run.
         -->
         <activity
-            android:name=".AddRecipeActivity"
+            android:name="com.lh200445635.comp3025_final_project.AddRecipeActivity"
             android:label="@string/title_activity_add_recipe"></activity>
         <activity
-            android:name=".RecipeActivity"
+            android:name="com.lh200445635.comp3025_final_project.RecipeActivity"
             android:label="@string/title_activity_recipe" />
         <activity
-            android:name=".RecipeListActivity"
+            android:name="com.lh200445635.comp3025_final_project.RecipeListActivity"
             android:label="@string/title_activity_recipe_list"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.lh200445635.comp3025_final_project.MainActivity">
         </activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.example.comp3025_final_project
+package com.lh200445635.comp3025_final_project
 
 import org.junit.Test
 

@@ -1,9 +1,9 @@
-package com.example.comp3025_final_project
+package com.lh200445635.comp3025_final_project
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.comp3025_final_project.databinding.ActivityInitialBinding
+import com.lh200445635.comp3025_final_project.databinding.ActivityInitialBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityInitialBinding
